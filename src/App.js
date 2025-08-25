@@ -1,11 +1,25 @@
-import React from 'react'
+import React from 'react';
+
+import { Footer, Blog, Header, Features, WhatGPT, Possibility } from './containers';
+import { Brand, Navbar, CTA } from './components';
+import './App.css';
 
 function App() {
   return (
-    <div>
-      <h1>GPT-3 </h1>
+    <div className="App">
+      <div className='gradiant__bg'>
+        <Navbar />
+        <Header />
+      </div>
+      <Brand />
+      <WhatGPT />
+      <Features />
+      <Possibility />
+      <CTA />
+      <Blog />
+      <Footer />
     </div>
   )
 }
 
-export default App
+export default App;
