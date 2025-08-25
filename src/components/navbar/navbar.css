@@ -1,4 +1,4 @@
-.gpt3__nabvar{
+.gpt3__navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -6,7 +6,7 @@
     padding: 2rem 6rem;
 }
 
-.gpt3__nabvar-links {
+.gpt3__navbar-links {
     flex: 1;
     display: flex;
     justify-content: flex-start;
@@ -18,8 +18,8 @@
 }
 
 .gpt3__navbar-links_logo img {
-    width: 62.56 px;
-    height: 16.02 px;
+    width: 62.56px;
+    height: 16.02px;
 }
 
 
@@ -43,21 +43,15 @@
 }
 
 
-.gpt3__navbar-links_container p,
-.gpt3__navbar-sign p,
-.gpt3__navbar-menu_container p{
+.gpt3__navbar-links_container p ,
+.gpt3__navbar-sign p ,
+.gpt3__navbar-menu_container p {
    color: #fff;
    font-family: var(--font-family);
    font-weight: 500;
    font-size: 18px;
    line-height: 25px;
    text-transform: capitalize;
-
-   font-family: Manrope;
-   font-style: normal;
-   font-weight: 500;
-   font-size: 18px;
-   line-height: 25px;
 
    color: #ffffff;
    margin: 0 1rem;
